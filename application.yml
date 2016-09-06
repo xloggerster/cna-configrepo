@@ -1,6 +1,9 @@
 ---
+
 spring:
     profiles: cloud
+    application:
+        name: ${vcap.application.application_name:atomicnumproducer}
     data:
         mongodb:
             database: first-atomic-number
