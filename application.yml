@@ -1,10 +1,8 @@
 ---
 spring:
     profiles: cloud
-
-eureka:
-    client:
-        registerWithEureka: true
-        service-url:
-            defaultZone: http://cna-eureka-server1.cfapps.io/eureka----aug10-13:47
-
+    data:
+        mongodb:
+            database: first-atomic-number
+            username: example-user
+            password: example-password
