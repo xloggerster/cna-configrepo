@@ -6,3 +6,6 @@ spring:
             database: first-atomic-number
             username: example-user
             password: example-password
+security:
+  basic:
+    enabled: false
