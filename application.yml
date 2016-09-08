@@ -19,13 +19,3 @@ management:
    security:
      enabled: false
 
-spring2:
-    profiles: dev
-    application:
-        name: ${vcap.application.application_name:atomicnumproducer}
-    data:
-        mongodb:
-            database: first-atomic-number3
-            username: example-user3
-            password: example-password3
-            
