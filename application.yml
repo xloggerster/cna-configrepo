@@ -19,7 +19,7 @@ management:
    security:
      enabled: false
 
-spring:
+spring2:
     profiles: dev
     application:
         name: ${vcap.application.application_name:atomicnumproducer}
