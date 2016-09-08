@@ -10,15 +10,6 @@ spring:
             database: first-atomic-number2
             username: example-user2
             password: example-password2
-security:
-  basic:
-    enabled: false
-
-management:
-   security:
-     enabled: false
-
-spring:
     profiles: dev
     application:
         name: ${vcap.application.application_name:atomicnumproducer}
@@ -27,3 +18,13 @@ spring:
             database: first-atomic-number3
             username: example-user3
             password: example-password3
+            
+security:
+  basic:
+    enabled: false
+
+management:
+   security:
+     enabled: false
+
+    
