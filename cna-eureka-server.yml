@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    hostname: ngsc-2-w7
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+server:
+  port: 8761
